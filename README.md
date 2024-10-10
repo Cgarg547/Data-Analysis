@@ -22,3 +22,9 @@ Prerequisites
 ### 2. Numpy: Numpy arrays are very fast and can perform large computations in a very short time.
 
 ### 3. Matplotlib / Seaborn: This library is used to draw visualizations.
+
+The analysis could be performed in four steps which are as follows:
+#### Step1: By importing relevant libraries and reading the data
+#### Step2: Cleaning the dataset
+#### Step3: Transforming the dataset
+#### Step4: Visualizing the dataset

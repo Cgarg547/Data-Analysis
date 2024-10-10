@@ -22,11 +22,11 @@ dataset = pd.read_csv("UberDataset.csv")
 
 # -----------------------------------------------
 # ## data processing: replacing the null value with the NOT keyword
-# print(dataset['PURPOSE'].fillna("NOT", inplace=True))
+print(dataset['PURPOSE'].fillna("NOT", inplace=True))
 
 # ## changing start_date and end_date to the date_time format
-# dataset['START_DATE'] = pd.to_datetime(dataset['START_DATE'], errors='coerce')
-# dataset['END_DATE'] = pd.to_datetime(dataset['END_DATE'], errors='coerce')
+print(dataset['START_DATE'] = pd.to_datetime(dataset['START_DATE'], errors='coerce'))
+print(dataset['END_DATE'] = pd.to_datetime(dataset['END_DATE'], errors='coerce'))
 
 # ## changing the start_date to date and time 
 # ## converting the time into four different categories i.e., Morning, Afternoon, Evening, Night
@@ -40,7 +40,7 @@ dataset = pd.read_csv("UberDataset.csv")
 #1. In this, we will understand and compare all the columns in the dataset.
 
 ## Checking the unique values in the dataset of the columns:
-
+'''
 obj = (dataset.dtypes == 'object')
 object_columns = list(obj[obj].index)
 
@@ -48,3 +48,5 @@ unique_values = {}
 for col in object_columns:
     unique_values[col] = dataset[col].unique().size
 print(unique_values)
+'''
+

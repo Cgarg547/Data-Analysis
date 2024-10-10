@@ -17,6 +17,8 @@ Prerequisites
       <img src="https://img.shields.io/badge/Seaborn-43853D?style=for-the-badge&logo=seaborn&logoColor=white"/></a>
 </p>
 
-1.Pandas:  This library helps to load the data frame in a 2D array format and has multiple functions to perform analysis tasks in one go.
-2. Numpy: Numpy arrays are very fast and can perform large computations in a very short time.
-3. Matplotlib / Seaborn: This library is used to draw visualizations.
+# 1.Pandas:  This library helps to load the data frame in a 2D array format and has multiple functions to perform analysis tasks in one go.
+
+# 2. Numpy: Numpy arrays are very fast and can perform large computations in a very short time.
+
+# 3. Matplotlib / Seaborn: This library is used to draw visualizations.
